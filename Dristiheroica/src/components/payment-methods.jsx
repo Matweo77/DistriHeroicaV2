@@ -1,7 +1,7 @@
 import { Smartphone, Landmark, Building2, Banknote } from "lucide-react"
 
 const methods = [
-  { name: "Nequi", logo: "/logos/nequi.jpg", color: "#DA0081", numero: "322 4091898" },
+  { name: "Nequi", logo: "/logos/nequi.jpg", color: "#DA0081", numero: "300 8650664" },
   { name: "Daviplata", logo: "/logos/daviplata.jpg", color: "#ED1C27", numero: "314 3648687" },
   { name: "Efectivo", icon: Landmark, color: "#FDDA24", numero: "$$$$$$" },
 //   { name: "PSE", icon: Building2, color: "#00A0DF" },

@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card"
 import { WhatsappIcon } from "./whatsaap-icon"
 import { services, whatsappLink } from "@/lib/data"
 
-function ServiceCard({ service }) {
+function ServiceCard({ service, price }) {
   return (
     <Card className="group relative gap-0 border-0 py-0 ring-1 ring-border transition-all duration-300 hover:-translate-y-1 hover:ring-gold/50">
       {/* Halo de color de la marca */}
@@ -54,7 +54,7 @@ function ServiceCard({ service }) {
         {/* CTA */}
         <a
           href={whatsappLink(
-            `Hola, quiero comprar una pantalla de ${service.name}`,
+            `Hola DistriHeroica, quiero adquirir una pantalla de ${service.name} de ${service.price}. Quedo atento a los datos para realizar el pago.`,
           )}
           target="_blank"
           rel="noopener noreferrer"
