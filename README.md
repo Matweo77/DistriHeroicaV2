@@ -1,10 +1,10 @@
-# 🚀 Distribuidora La Heroica - Landing Page & Catálogo Streaming
+# Distribuidora La Heroica - Landing Page & Catálogo Streaming
 
 Landing page moderna tipo e-commerce desarrollada para **Distribuidora La Heroica**[cite: 1]. La plataforma permite a los usuarios explorar el catálogo de perfiles y servicios de streaming (Netflix, Disney+, HBO Max, Prime Video, entre otros) e iniciar el proceso de compra de forma rápida mediante redirección directa a WhatsApp.
 
 ---
 
-## 🌟 Características Principales
+##  Características Principales
 
 * **Hero Section Dinámico:** Presentación interactiva con carrusel de contenidos destacados[cite: 1, 2].
 * **Catálogo Interactivo:** Muestra de servicios de streaming con precios actualizados y etiquetas destacadas (*Más vendido*, *Popular*).
