@@ -2,7 +2,7 @@ import { Smartphone, Landmark, Building2, Banknote } from "lucide-react"
 
 const methods = [
   { name: "Nequi", logo: "/logos/nequi.jpg", color: "#DA0081", numero: "300 8650664" },
-  { name: "Daviplata", logo: "/logos/daviplata.jpg", color: "#ED1C27", numero: "314 3648687" },
+  { name: "Daviplata llave bre-v", logo: "/logos/daviplata.jpg", color: "#ED1C27", numero: "@PLATA3008650664" },
   { name: "Efectivo", icon: Landmark, color: "#FDDA24", numero: "$$$$$$" },
 //   { name: "PSE", icon: Building2, color: "#00A0DF" },
 //   { name: "Binance / Cripto", logo: "/logos/binance-mono.svg", color: "#F0B90B" },
