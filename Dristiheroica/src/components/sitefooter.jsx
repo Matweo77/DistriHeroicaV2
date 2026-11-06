@@ -14,11 +14,15 @@ export function SiteFooter() {
         </p>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-8 sm:flex-row sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-6 sm:flex-row sm:px-6 lg:px-8 ">
         <div className="flex items-center gap-2.5">
-          <span className="flex size-9 items-center justify-center rounded-lg bg-gold font-display text-lg font-black text-gold-foreground">
-            H
-          </span>
+          <div className="flex size-13 items-center justify-center overflow-hidden rounded-lg">
+            <img
+              src="/logos/la-heroica-logo.png"
+              alt="Logo"
+              className="size-full object-contain"
+            />
+          </div>
           <span className="font-display text-sm font-extrabold leading-none">
             Distribuidora
             <span className="block text-xs font-semibold text-gold">
