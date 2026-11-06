@@ -146,14 +146,14 @@ export const services: Service[] = [
     price: "$20.000",
     accent: "#534bbd",
   },
-  {
-    name: "ChatGPT Plus",
-    logo: "/logos/chatgpt.svg",
-    logoClass: "h-16",
-    price: "$ 45.000",
-    tag: "GPT-5",
-    accent: "#10A37F",
-  },
+  // {
+  //   name: "ChatGPT Plus",
+  //   logo: "/logos/chatgpt.svg",
+  //   logoClass: "h-16",
+  //   price: "$ 45.000",
+  //   tag: "GPT-5",
+  //   accent: "#10A37F",
+  // },
 ]
 
 export type Slide = {

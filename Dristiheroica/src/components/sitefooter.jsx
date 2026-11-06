@@ -4,7 +4,7 @@ import { whatsappLink } from "@/lib/data"
 export function SiteFooter() {
   return (
     <footer className="bg-background">
-      {/* Banner con el lema */}
+      {/* Banner con el lema 
       <div className="bg-gold px-4 py-8 text-center sm:px-6">
         <p className="mx-auto max-w-4xl text-balance font-display text-base font-black uppercase tracking-wide text-gold-foreground sm:text-xl">
            Calidad, Confianza y el Mejor Servicio 
@@ -12,7 +12,7 @@ export function SiteFooter() {
         <p className="mt-1 text-sm font-semibold text-gold-foreground/80">
           Tu entretenimiento, nuestra prioridad
         </p>
-      </div>
+      </div>*/}
 
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-6 sm:flex-row sm:px-6 lg:px-8 ">
         <div className="flex items-center gap-2.5">
@@ -46,6 +46,9 @@ export function SiteFooter() {
           Escríbenos
         </a>
       </div>
+
+      
     </footer>
+    
   )
 }

@@ -61,6 +61,12 @@ export function HeroSection() {
           >
             Ver catálogo
           </a>
+          <a
+            href="#opiniones"
+            className="inline-flex w-full items-center justify-center rounded-xl border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary sm:w-auto"
+          >
+            Ver opiniones
+          </a>
         </div>
 
         {/* Badges de confianza en móvil */}
