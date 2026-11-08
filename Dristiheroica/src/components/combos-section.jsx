@@ -79,7 +79,7 @@ const combos = [
 ]
 
 function getComboLabel(combo) {
-  const platformNames = combo.platforms.map((platform) => platform.name).join(" + ")
+  const platformNames = combo.platforms.map((platform) => platform.name).join(" y ")
   const plan = combo.name.includes("PREMIUM") ? "Premium" : "Básico"
   return `${platformNames} ${plan}`
 }
@@ -153,7 +153,7 @@ export function CombosSection() {
                 </div>
 
                 <a
-                  href={whatsappLink(`Hola, quiero comprar el ${combo.name}: ${combo.platforms.map((platform) => platform.name).join(" + ")}`)}
+                  href={whatsappLink(`Hola, quiero comprar el combo ${getComboLabel(combo)} por ${combo.price}`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-whatsapp px-4 py-3 text-sm font-semibold text-whatsapp-foreground transition-transform hover:-translate-y-0.5 hover:bg-whatsapp/90"

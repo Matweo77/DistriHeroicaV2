@@ -1,8 +1,8 @@
-// Número de WhatsApp del negocio (formato internacional sin "+")
-export const WHATSAPP_NUMBER = "573008650664"
+// Número de WhatsApp de la distribuidora
+export const WHATSAPP_NUMBER = "573054385451";
 
-export function whatsappLink(message: string) {
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+export function whatsappLink(message:string) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
 export type Service = {
