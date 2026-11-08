@@ -48,7 +48,7 @@ export const services: Service[] = [
     accent: "#113CCF",
   },
   {
-    name: "",
+    name: "Prime video",
     logo: "/logos/prime-video.svg",
     logoClass: "h-10",
     price: "$ 12.000",
